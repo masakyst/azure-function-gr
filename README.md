@@ -4,7 +4,7 @@ Groovyで、Azure Functions
 GroovyでAzure Functionsを動かすまで。
 
 
-    $ gradle clean
+    $ ./gradlew clean
     $ ./gradlew packageAzureFunction
 
 これで、build/azure-functions/以下に成果物が配置されます。
