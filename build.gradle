@@ -22,7 +22,6 @@ repositories {
 dependencies {
     compile 'com.microsoft.azure:azure-functions-java-core:1.0.0-beta-2'
     compile 'org.codehaus.groovy:groovy-all:2.4.12'
-//    compile 'mysql:mysql-connector-java:5.1.+'
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
 }
 
