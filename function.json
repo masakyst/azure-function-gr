@@ -1,0 +1,19 @@
+{
+  "scriptFile": "../function.jar",
+  "entryPoint": "azure.bleullc.Function.hello",
+  "bindings": [
+    {   
+      "type": "httpTrigger",
+      "name": "req",
+      "direction": "in",
+      "dataType": "string",
+      "authLevel": "function",
+      "methods": [ "get" ]
+    },  
+    {   
+      "type": "http",
+      "name": "$return",
+      "direction": "out"
+    }   
+  ]
+}
